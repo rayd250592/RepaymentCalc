@@ -11,7 +11,7 @@
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black"/>
-                <GradientStop Color="#FF424DB9" Offset="1"/>
+                <GradientStop Color="#FF0A9141" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
@@ -19,13 +19,21 @@
             <RowDefinition Height="49*"/>
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="376,70,0,0" TextWrapping="Wrap" Text=" Home Repayment Calculator" VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="103,212,0,0" TextWrapping="Wrap" Text="Initial Amount: " VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="103,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="48" Width="443">
+        	<Run Text="Initial Amount"/>
+        	<Run Text=" (£)"/>
+        	<Run Text=": "/>
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="103,325,0,0" TextWrapping="Wrap" Text="Repayment Term (Years):" VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="103,44,0,0" TextWrapping="Wrap" Text="Repayment (Per Month): " VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="48" Grid.Row="1"/>
-        <Button Content="Calculate" HorizontalAlignment="Left" Margin="103,411,0,0" VerticalAlignment="Top" Click="Button_Click_1" FontSize="22"/>
-        <TextBox x:Name="start" HorizontalAlignment="Left" Margin="459,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" TextChanged="start_TextChanged"/>
-        <TextBox x:Name="years" HorizontalAlignment="Left" Margin="657,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"/>
-        <TextBlock x:Name="result" HorizontalAlignment="Left" Margin="681,59,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="139" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="103,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Global User Interface" FontSize="48" Grid.Row="1">
+        	<Run Text="Repayment ("/>
+        	<Run Text=" £ "/>
+        	<Run Text="Per Month): "/>
+        </TextBlock>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="646,419,0,0" VerticalAlignment="Top" Click="Button_Click_1" FontSize="22"/>
+        <TextBox x:Name="start" HorizontalAlignment="Left" Margin="551,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" TextChanged="start_TextChanged"/>
+        <TextBox x:Name="years" HorizontalAlignment="Left" Margin="649,325,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22"/>
+        <TextBlock x:Name="result" HorizontalAlignment="Left" Margin="709,59,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="139" FontSize="20"/>
 
     </Grid>
 </Page>

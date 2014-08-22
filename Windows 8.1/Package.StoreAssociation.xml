@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
   <Publisher>CN=0C1BEA23-F6BC-4FF0-9198-007FF8578E3E</Publisher>
-  <NamespacePrefix>32694rayd250592</NamespacePrefix>
   <PublisherDisplayName>rayd_250592</PublisherDisplayName>
   <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
   <SupportedLocales>
@@ -357,20 +356,28 @@
   <AccountPackageIdentityNames>
     <MainPackageIdentityName>32694rayd250592.AlcoholUnitCalculator</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.AreaCalc</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.BarneyStinsonQutes</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.CarbonCalculator</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.CompatabilityChecker</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.Crystal8Ball</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.DeathTime</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.FindtheEggs</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.FindtheSnowman</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.FuelEconomyCalculator</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.GoAwayRain</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.HomeBingo</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.HubViewer</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.LottoNumbersPicker</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.MPGCalculator</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.NumberGen</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.PumpkinSmash</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.QuickReactions</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.Reactions</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.RepaymentCalculator</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.ShapeCalc</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.SpellIT</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.TeachMeBinary</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.TomatoJuice</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.WindowClean</MainPackageIdentityName>
   </AccountPackageIdentityNames>
   <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/ac9bd73c-a849-4533-a237-d2ad525d7b3a">
@@ -378,6 +385,11 @@
       <OsMinVersion>6.2.1.0</OsMinVersion>
       <PackageArchitecture>neutral</PackageArchitecture>
       <PackageMaxArchitectureVersion>1.0.0.3</PackageMaxArchitectureVersion>
+    </PackageInfo>
+    <PackageInfo>
+      <OsMinVersion>6.3.0.0</OsMinVersion>
+      <PackageArchitecture>neutral</PackageArchitecture>
+      <PackageMaxArchitectureVersion>2.1.0.4</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>

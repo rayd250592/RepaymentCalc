@@ -12,9 +12,9 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>Repayment Calculator_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>Home_Repayment Calculator_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
-    <PackageCertificateThumbprint>74E25315B2CD8FC7366190FBB886C232B570E3E6</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>ADFA55DB6148CB571E9D32A2477E7D0DE785252C</PackageCertificateThumbprint>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <TargetFrameworkVersion />
@@ -121,6 +121,8 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="Home_Repayment Calculator_StoreKey.pfx" />
+    <None Include="Home_Repayment Calculator_TemporaryKey.pfx" />
     <None Include="Mortgage_Calculator_TemporaryKey.pfx" />
     <None Include="Repayment Calculator_StoreKey.pfx" />
   </ItemGroup>

@@ -356,6 +356,7 @@
   <AccountPackageIdentityNames>
     <MainPackageIdentityName>32694rayd250592.AlcoholUnitCalculator</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.AreaCalc</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.BackMe</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.BarneyStinsonQutes</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.CarbonCalculator</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.CompatabilityChecker</MainPackageIdentityName>
@@ -367,9 +368,13 @@
     <MainPackageIdentityName>32694rayd250592.GoAwayRain</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.HomeBingo</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.HubViewer</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.InCaseofEmergency</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.FlashBeam</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.LoanRepaymentCalculator</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.LottoNumbersPicker</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.MPGCalculator</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.NumberGen</MainPackageIdentityName>
+    <MainPackageIdentityName>32694rayd250592.PicktheNumber</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.PumpkinSmash</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.QuickReactions</MainPackageIdentityName>
     <MainPackageIdentityName>32694rayd250592.Reactions</MainPackageIdentityName>
@@ -389,7 +394,7 @@
     <PackageInfo>
       <OsMinVersion>6.3.0.0</OsMinVersion>
       <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>2.1.0.4</PackageMaxArchitectureVersion>
+      <PackageMaxArchitectureVersion>2.3.0.6</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>

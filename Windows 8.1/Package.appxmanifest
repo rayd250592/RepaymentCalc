@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="32694rayd250592.HomeRepaymentCalculator" Publisher="CN=0C1BEA23-F6BC-4FF0-9198-007FF8578E3E" Version="2.3.0.6" />
+  <Identity Name="32694rayd250592.HomeRepaymentCalculator" Publisher="CN=0C1BEA23-F6BC-4FF0-9198-007FF8578E3E" Version="8.3.0.7" />
   <Properties>
     <DisplayName>Home Repayment Calculator</DisplayName>
     <PublisherDisplayName>rayd_250592</PublisherDisplayName>
